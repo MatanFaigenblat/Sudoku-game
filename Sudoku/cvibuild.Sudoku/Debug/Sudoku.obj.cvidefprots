@@ -1,0 +1,80 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[goBackFunction]
+Class="Function"
+Prototype="int goBackFunction(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[cancelFunction]
+Class="Function"
+Prototype="int cancelFunction(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[outFunction]
+Class="Function"
+Prototype="int outFunction(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[quitAboutFunction]
+Class="Function"
+Prototype="int quitAboutFunction(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[quitFunction]
+Class="Function"
+Prototype="int quitFunction(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[continueFunction]
+Class="Function"
+Prototype="int continueFunction(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[settingsFunction]
+Class="Function"
+Prototype="int settingsFunction(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[newGameFunction]
+Class="Function"
+Prototype="int newGameFunction(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[diffFunction]
+Class="Function"
+Prototype="int diffFunction(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[obsFunction]
+Class="Function"
+Prototype="int obsFunction(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[saveFunction]
+Class="Function"
+Prototype="int saveFunction(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[sudokuFunction]
+Class="Function"
+Prototype="int sudokuFunction(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[functionCheckTimer]
+Class="Function"
+Prototype="int functionCheckTimer(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[exitTableFunction]
+Class="Function"
+Prototype="int exitTableFunction(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[helpBar]
+Class="Function"
+Prototype="void helpBar(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[adBar]
+Class="Function"
+Prototype="void adBar(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[aboutBar]
+Class="Function"
+Prototype="void aboutBar(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[instructionsFunction]
+Class="Function"
+Prototype="int instructionsFunction(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[demoFunction]
+Class="Function"
+Prototype="int demoFunction(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
